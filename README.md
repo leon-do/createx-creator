@@ -2,6 +2,8 @@
 
 Easily deploy CreateX on any chain
 
+![](https://github.com/user-attachments/assets/c04f2727-3d45-48f5-b3ac-c6481f8d2e52)
+
 ## How it works
 
 - Select your chain by inputting the correct [RPC URL](https://chainlist.org/)
