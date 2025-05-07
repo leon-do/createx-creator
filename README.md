@@ -1,4 +1,4 @@
-# CreateX GUI
+# CreateX Creator
 
 Easily deploy CreateX on any chain
 
