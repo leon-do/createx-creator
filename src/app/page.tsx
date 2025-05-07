@@ -37,12 +37,21 @@ export default function Home() {
         >
           <h1 className="text-3xl font-bold">CreateX</h1>
         </a>
+        <a
+          href="https://github.com/leon-do/createx-creator"
+          target="_blank"
+          className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+        >
+          Source
+        </a>
         <input
           className="w-full p-2 border border-gray-300 rounded-md"
           placeholder="https://rpc-chain-vn4p9og.t.conduit.xyz"
           onChange={(e) => setRpcUrl(e.target.value)}
         />
-        <pre>Fund: 0xeD456e05CaAb11d66C4c797dD6c1D6f9A7F352b5</pre>
+        <pre>
+          Fund Deployer Account: 0xeD456e05CaAb11d66C4c797dD6c1D6f9A7F352b5
+        </pre>
         <pre>CreateX Address: 0xba5Ed099633D3B313e4D5F7bdc1305d3c28ba5Ed</pre>
         <button
           onClick={() => handleCreateX()}
